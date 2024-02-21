@@ -1,0 +1,305 @@
+%-------------------------
+% Person resume in Latex
+% Author : Zheng Lu
+% Revised from: sourabhbajaj.com
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemlist}[1]{
+  \item\small{
+	{#1 \vspace{-4pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingTWO}[1]{
+	\vspace{-1pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} \\
+	\end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeSubHeadingStart}{\begin{itemize}}
+\newcommand{\resumeSubHeadingEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://zhenglu.top/home/}{\Large Zheng Lu}} & Email : \href{mailto:legend.lz@mail.bnu.edu.cn}{legend.lz@mail.bnu.edu.cn}\\
+  \href{https://zhenglu.top/scholar}{https://zhenglu.top/scholar/} & Mobile : 
+  \href{tel:+86 13520523099}{+86-135-2523-3099} \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Faculty of Geographical Science, Beijing Normal University}{Beijing, China}
+      {Doctor of Science in Geoscience}{Sept. 2018 -- Jun. 2024}
+    \resumeSubheading
+      {School of Geography, Beijing Normal University}{Beijing, China}
+      {Master of Science in Geoscience}{Sept. 2013 -- Jun. 2016}
+    \resumeSubheading
+      {College of Geomatics, Shandong University of Science and Technology}{Shandong, China}
+      {Bachelor of Engineering in Geomatics}{Sept. 2009 -- Jun. 2013}
+  \resumeSubHeadingListEnd
+  
+%-----------RESEARCH-----------------
+\section{Research}
+  \resumeSubHeadingListStart
+        \resumeItemlist
+          {My current research focus is on the applications of integrated process-based hydrologic models and remote sensing approaches to describe groundwater-surface water interactions and the associated processes, especially changes in land surface processes, and assessing their possible impacts on the eco-hydrology over the Heihe River Basin of China as well as other arid and semi-arid regions.}
+        \resumeItem{Topics}
+          { \vspace{-8pt}}
+          
+          \resumeItemListStart
+            \resumeItemlist
+            {Groundwater-land surface processes modeling}
+            \resumeItemlist
+            {Passive microwave remote sensing}
+            \resumeItemlist
+            {Regional water resources management}
+            \resumeItemlist
+            {Machine learning in remote sensing and simulation}
+            \resumeItemlist
+            {Geographical education and popularization}
+          \resumeItemListEnd
+          
+  \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------------
+\section{Publications}
+  \resumeSubHeadingListStart
+  
+%      \resumeItemlist{\textbf{SCI}}
+      
+      \resumeSubheadingTWO
+      {SCI}
+      
+      \resumeItemListStart
+      
+      \resumeItemlist{\textbf{Zheng Lu}, Yuan He, Shuyan Peng, Xiaofan Yang. Comprehensive Evaluation of Multi-Source Soil Moisture Products in a Managed Agricultural Region: An Integrated Hydrologic Modelling Approach. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2023, 16:1-17.}
+      \resumeItemlist{\textbf{Zheng Lu}, Yuan He, Shuyan Peng. Assessing Integrated Hydrologic Model: From Benchmarking to Case Study in a Typical Arid and Semi-arid Basin, Land, 2023, 12(3): 697.}
+      \resumeItemlist{\textbf{Zheng Lu}, Linna Chai, Shaomin Liu, Huizhen Cui, Yanghua Zhang, Lingmei Jiang, Rui Jin, Ziwei Xu. Time Series Soil Moisture by Applying Recurrent Nonlinear Autoregressive Neural Networks to Passive Microwave Data over the Heihe River Basin, China. Remote Sensing, 2017, 9(6): 574.}
+      \resumeItemlist{Xiaocui Wen, Jiawei Zhou, Siyan Zheng, Zhangwei Yang, \textbf{Zheng Lu}, Xueqin Jiang, Lingzhi Zhao, Bo Yan, Xiaofan Yang, Tao Chen. Geochemical Properties, Heavy Metals and Soil Microbial Community During Revegetation Process in a Production Pb-Zn Tailings. Journal of Hazardous Materials, 2024, 463: 132809.}
+      \resumeItemlist{Tao Chen, Xiaocui Wen, Jiawei Zhou, \textbf{Zheng Lu}, Xueying Li, Bo Yan. A critical review on the migration and transformation processes of heavy metal contamination in lead-zinc tailings of China. Environmental Pollution, 2023, 338:122667.}
+      \resumeItemlist{Jingbo Sun, Yuan He, Xueying Li, \textbf{Zheng Lu}, Xiaofan Yang. CFD Simulations for Airflow around Ground-mounted Photovoltaic Panel Arrays. Journal of Wind Engineering \& Industrial Aerodynamics, 2023, 242: 105558.}
+      \resumeItemlist{Yuan He, \textbf{Zheng Lu}, Weijia Wang, Dong Zhang, Yunlin Zhang, Boqiang Qin, Kun Shi, Xiaofan Yang. Water Clarity Mapping of Global Lakes Using a Novel Hybrid Deep-learning-based Recurrent Model with Landsat OLI Images. Water Research, 2022, 215(3):118241.}
+      \resumeItemlist{Zixuan Hu, Linna Chai, Wade T Crow, Shaomin Liu, Zhongli Zhu, Ji Zhou, Yuquan Qu, Jin Liu, Shiqi Yang, \textbf{Zheng Lu}. Applying Wavelet Transform Technique to Optimize General Fitting Models for SM Analysis: A Case Study in Downscaling over the Qinghai-Tibet Plateau. Remote Sensing, 2022, 14(13): 3063.}
+      \resumeItemlist{Chen Yang, Tingting Zheng, Kun Huang, \textbf{Zheng Lu}, You-Kuan Zhang, Xiaofan Yang. Diagnosing the Subsurface Buffer on Ground-surface Temperature under Long-term Groundwater Pumping: Effects of the Bottom Boundary Condition Placement. Hydrogeology Journal, 2021, 29(3): 1313-1327.}
+      \resumeItemlist{Yuquan Qu, Zhongli Zhu, Carsten Montzka, Linna Chai, Shaomin Liu, Yong Ge, Jin Liu, \textbf{Zheng Lu}, Xinlei He, Jie Zheng, Tian Han. Inter-comparison of Several Soil Moisture Downscaling Methods over the Qinghai-Tibet Plateau, China. Journal of Hydrology, 2021, 592:125616.}
+      \resumeItemlist{Jin Liu, Linna Chai, Jianzhi Dong, Donghai Zheng, J-P Wigneron, Shaomin Liu, Ji Zhou, Tongren Xu, Shiqi Yang, Yongze Song, Yuquan Qu, \textbf{Zheng Lu}. Uncertainty Analysis of Eleven Multisource Soil Moisture Products in the Third Pole Environment Based on the Three-Corned Hat Method. Remote Sensing of Environment, 2021, 255: 112225. }
+      \resumeItemlist{Jinhui Tong, Jinhua Hu, \textbf{Zheng Lu}, Haoran Sun, Xiaofan Yang. The Impact of Land Use and Cover Change on Soil Organic Carbon and Total Nitrogen Storage in the Heihe River Basin: A Meta-analysis. Journal of Geographical Sciences, 2019, 29(9): 1578-1594.}
+      \resumeItemlist{Jin Liu, Linna Chai, \textbf{Zheng Lu}, Shaomin Liu, Yuquan Qu, Deyuan Geng, Yongze Song, Yabing Guan, Zhixia Guo, Jian Wang, Zhongli Zhu. Evaluation of SMAP, SMOS-IC, FY3B, JAXA, and LPRM Soil Moisture Products over the Qinghai-Tibet Plateau and Its Surrounding Areas. Remote Sensing, 2019, 11(7): 792.}
+      \resumeItemlist{Yuquan Qu, Zhongli Zhu, Linna Chai, Shaomin Liu, Carsten Montzka, Jin Liu, Xiaofan Yang, \textbf{Zheng Lu}, Rui Jin, Xiang Li, Zhixia Guo, Jie Zheng. Rebuilding a Microwave Soil Moisture Product Using Random Forest Adopting AMSR-E/AMSR2 Brightness Temperature and SMAP over the Qinghai-Tibet Plateau, China. Remote Sensing, 2019, 11(6): 683.}
+      \resumeItemlist{Xiang Li, Shaomin Liu, Huaixiang Li, Yanfei Ma, Jianghao Wang, Yuan Zhang, Ziwei Xu, Tongren Xu, Lisheng Song, Xiaofan Yang, \textbf{Zheng Lu}, Zeyu Wang, Zhixia Guo. Intercomparison of Six Upscaling Evapotranspiration Methods: From Site to the Satellite Pixel. Journal of Geophysical Research: Atmospheres, 2018, 123(13): 6777-6803.}
+      \resumeItemlist{Huizhen Cui, Lingmei Jiang, Jinyang Du, Shaojie Zhao, Gongxue Wang, \textbf{Zheng Lu}, Jian Wang. Evaluation and Analysis of AMSR-2, SMOS, and SMAP Soil Moisture Products in the Genhe Area of China. Journal of Geophysical Research. Atmospheres, 2017, 122(16): 8650-8666.}
+      
+      \resumeItemListEnd
+      
+      \resumeSubheadingTWO
+      {EI Proceeding}
+      
+      \resumeItemListStart
+      
+      \resumeItemlist{\textbf{Zheng Lu}, Linna Chai, Tao Zhang, Huizhen Cui, Jian Wang, Wanjing Li. Validation of SMOS soil moisture product in the Heihe River Basin of China. In proceeding of IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 2981-2984, 10-15 July 2016, Beijing, China.}
+      \resumeItemlist{\textbf{Zheng Lu}, Linna Chai, Qinyu Ye, Tao Zhang. Reconstruction of time-series soil moisture from AMSR2 and SMOS data by using recurrent nonlinear autoregressive neural networks. In proceeding of IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 980-983, 26-31 July 2015, Milano, Italy.}
+      \resumeItemlist{Jin Liu, Linna Chai, \textbf{Zheng Lu}, Yuquan Qu, Jian Wang, Shiqi Yang. Validation of five passive microwave remotely sensed soil moisture products over Qinghai-Tibet plateau and its surrounding areas. In proceeding of IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 6182-6185, 28 July-2 August 2019, Yokohama, Japan.}
+      \resumeItemlist{Wenxing Hu, Linna Chai, Shaojie Zhao, Tianjie Zhao, \textbf{Zheng Lu}. Improvement on soil freeze/thaw discriminant algorithm under complex surface conditions in cold regions. In proceeding of IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 1599-1602, 23-28 July 2017, Fort Worth, Texas, USA.}
+      \resumeItemlist{Huizhen Cui, Lingmei Jiang, \textbf{Zheng Lu}, Gongxue Wang, Jian Wang. Improvement and validation of Qp model with dual-channel soil moisture retrieval algorithm in Genhe, China. In proceeding of IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 4951-4954, 23-28 July 2017, Fort Worth, Texas, USA. }
+      \resumeItemlist{Huizhen Cui, Lingmei Jiang, Na Yang, \textbf{Zheng Lu}. Validation/calibration of the SMOS L2 soil moisture in crop area, eastern China. In proceeding of European Space Agency Living Planet Symposium (ESA LPS16), SP-740:142, 9-13 May 2016, Prague, Czech Republic.}
+      \resumeItemlist{Xiaojing Liu, Lingmei Jiang, Gongxue Wang, \textbf{Zheng Lu}. Downscaling microwave brightness temperatures from FY3B/MWRI with a linear unmixing method. In proceeding of IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 2830-2833, 10-15 July 2016, Beijing, China.}
+      \resumeItemlist{Huizhen Cui, Lingmei Jiang, Jinyang Du, Gongxue Wang, \textbf{Zheng Lu}. Assessment of Qp model based two channel algorithm with JAXA, LPRM soil moisture products over Genhe area in China. In proceeding of IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 1663-1666, 10-15 July 2016, Beijing, China.}
+      \resumeItemlist{Xiaojing Liu, Lingmei Jiang, Gongxue Wang, \textbf{Zheng Lu}. Using a linear unmixing method to improve passive microwave snow depth retrieval. In proceeding of Progress in Electromagnetic Research Symposium (PIERS), 4107, 8-11 August 2016, Shanghai, China.}
+      
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+  
+%-----------PRESENTATIONS-----------------
+\section{Presentations}
+\resumeSubHeadingListStart
+    \resumeSubheadingTWO
+    {Oral Reports}
+  
+    \resumeItemListStart
+    
+    \resumeItemlist{\textbf{Zheng Lu}, Shuyan Peng, Yuan He,  Muqi Chen, Xiaofan Yang. Impacts of surface microtopography, subsurface heterogeneity and agricultural activities on simulating regional hydrological processes. AGU Fall Meeting 2022, 12-16 December 2022, Chicago, Illinois, USA, online.}
+    \resumeItemlist{\textbf{Zheng Lu}, Dongxing Wu, Chen Yang,  Zhongli Zhu, Xiaofan Yang, Shaomin Liu. Evaluating the Impacts of Subsurface Heterogeneity on Integrated Groundwater-Surface Water Modeling: A Case Study in the Heihe River Basin. AGU Fall Meeting 2019, 9-13 December 2019, San Francisco, California, USA.}
+    
+    \resumeItemListEnd
+    
+    \resumeSubheadingTWO
+    {Poster Presentations}
+    
+    \resumeItemListStart
+    
+    \resumeItemlist{\textbf{Zheng Lu}, Chen Yang, Yuan He, Xiaofan Yang. How irrigation and groundwater pumping strategies impact groundwater-surface water interactions: case studies in a managed agricultural basin. AGU Fall Meeting 2021, 13-17 December 2021, New Orleans, Louisiana, USA, online.}
+    \resumeItemlist{\textbf{Zheng Lu}, Jinhui Tong, Chen Yang, Tao Che, Xiaofan Yang, Shaomin Liu. Hydrological Model Intercomparison: Subsurface Flow and Reactive Transport Simulation in the Oasis-Desert Interaction Zone. AGU Fall Meeting 2018, 10-14 December 2018, Washington, D.C., USA.}
+    \resumeItemlist{\textbf{Zheng Lu}, Chen Yang, Shaomin Liu, Xiaofan Yang. Integrated surface water-groundwater model intercomparison: From benchmarking to beyond. MODFLOW and More, 2-5 June 2019, Golden, Colorado, USA.}
+    \resumeItemlist{\textbf{Zheng Lu}, Linna Chai, Tao Zhang, Huizhen Cui,  Yichi Zhang. Validation of AMSR2 soil moisture product using observation of soil moisture network over the Heihe River Basin in China. International Workshop on Quantitative Remote Sensing for Heterogeneous Land Surface (IWQRSHLS), 9-10 July 2016, Beijing, China.}
+    \resumeItemlist{\textbf{Zheng Lu}, Linna Chai, Tao Zhang, Lingmei Jiang, Xiaojing Liu. Application of recurrent nonlinear autoregressive neural network for time-series soil moisture estimation over the Heihe River Basin. International Workshop on Quantitative Remote Sensing for Heterogeneous Land Surface (IWQRSHLS), 9-10 July 2016, Beijing, China.}
+    \resumeItemlist{Huizhen Cui, Lingmei Jiang, Shuang Yan, \textbf{Zheng Lu}. Towards Thermal Inertia Model Derived Soil Moisture, Upscaling, and Validation. International Workshop on Quantitative Remote Sensing for Heterogeneous Land Surface (IWQRSHLS), 9-10 July 2016, Beijing, China.}
+    \resumeItemlist{Zhen Li, Xiaomeng Wang, Wanjing Li, \textbf{Zheng Lu}, Huizhen Cui, Lingmei Jiang. Analysis of spatial-temporal change of soil moisture in northeastern China based on AMSR2 and SMOS products. International Workshop on Quantitative Remote Sensing for Heterogeneous Land Surface (IWQRSHLS), 9-10 July 2016, Beijing, China.}
+    
+    \resumeItemListEnd
+    
+  
+  
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Teaching Assistant}{Beijing, China}
+      {Faculty of Geographical Science, Beijing Noraml University}{Jan. 2020 - Jul. 2020}
+      
+% --------Multiple Positions Heading------------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Research Secretary}{Beijing, China}
+      {State Key Laboratory of Remote Sensing Science}{Jul. 2016 - Agu. 2017}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------HONORS & AWARDS-----------------
+\section{Honors and Awards}
+  \resumeSubHeadingListStart
+    \resumeSubItem{2024}
+      {Academic Innovation Award of Beijing Normal University}
+    \resumeSubItem{2021}
+      {Honorable Graduate Student Fellowship of No.2 Middle School Attached to SDNU}
+    \resumeSubItem{2021}
+      {Poster Award, International Workshop on Smart Ocean and Comprehensive Utilization}
+    \resumeSubItem{2020}
+      {Top Scholarship Award, Beijing Normal University}
+    \resumeSubItem{2020}
+      {Outstanding Teaching Assistant}
+    \resumeSubItem{2019}
+      {Second-class Scholarship Award, Postgraduate Academic Competition}
+    \resumeSubItem{2018}
+      {Excellent Contribution to the Tsjnghua-MIT Joint Workshop}
+    \resumeSubItem{2016}
+      {Excellent Contribution to the Tsjnghua-MIT Joint Workshop}
+    \resumeSubItem{2012}
+      {Outstanding Student Prize, Control Survey Skills Competition}
+  \resumeSubHeadingListEnd
+
+
+%--------SKILLS------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \item{\textbf{Models}{: ParFlow (ParFlow-CLM) / PFLOTRAN / ORTI3D}}
+    \item{\textbf{Programming Skills}{: MATLAB / R / Fortran / Python / HTML / Javascript / node.js}}
+  \resumeSubHeadingListEnd
+  
+  
+%--------Miscellaneous------------
+\section{Miscellaneous}
+\resumeSubHeadingListStart
+
+\item{\textbf{Languages}{: English - Fluent, Mandarin - Native speaker}}
+\item{\textbf{Blog}{: https://zhenglu.top/}}
+\item{\textbf{GitHub}{: https://github.com/AdamZhengLu}}
+\resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
