@@ -14,7 +14,7 @@ Compile tex on your Computer
 If you only need a résumé in English or have installed Adobe Simplified Chinese on your OS, **It would be better to clone only the master branch,** since the Simplified Chinese fonts files are too large.
 
 ```
-git clone https://github.com/AdamZhengLu/CV_academic/resume.git --branch main --single-branch <folder>
+git clone https://github.com/AdamZhengLu/CV_academic.git
 ```
 
 ## License
