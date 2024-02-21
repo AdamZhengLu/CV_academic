@@ -9,9 +9,7 @@ A single-page, one-column resume for M.S./Ph.D. student.
 
 ## Usage
 
-Compile tex on your Computer
-
-If you only need a résumé in English or have installed Adobe Simplified Chinese on your OS, **It would be better to clone only the master branch,** since the Simplified Chinese fonts files are too large.
+**Compile tex on your Computer**
 
 ```
 git clone https://github.com/AdamZhengLu/CV_academic.git
