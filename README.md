@@ -1,4 +1,4 @@
-# Academic Résumé
+# Academic resume
 A single-page, one-column resume for M.S./Ph.D. student. 
 
 ## Features
