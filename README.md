@@ -5,7 +5,7 @@ A single-page, one-column resume for M.S./Ph.D. student.
 
 - Easy to further customize or extend.
 - Full support for unicode characters with \XeLaTeX\.
-- Modified from Sourabh Bajaj's program [sb2nov](https://github.com/sb2nov/resume?tab=readme-ov-file) or [Overleaf template](https://www.overleaf.com/latex/templates/software-engineer-resume/gqxmqsvsbdjf).
+- Modified from Sourabh Bajaj (sb2nov)'s program [Github](https://github.com/sb2nov/resume?tab=readme-ov-file) or [Overleaf template](https://www.overleaf.com/latex/templates/software-engineer-resume/gqxmqsvsbdjf).
 
 ## Usage
 
